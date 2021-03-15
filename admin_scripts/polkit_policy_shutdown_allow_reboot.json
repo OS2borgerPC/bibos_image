@@ -1,0 +1,12 @@
+ {
+  "name": "Desktop - Blokér for nedlukning via systempolitik",
+  "description": "Installerer en systempolitik, der forbyder, at brugeren må lukke maskinen. Tillader genstart.\n\nUdarbejdet af Alexander Faithfull <af@magenta.dk>.",
+  "parameters": [
+    {
+      "name": "Aktivér?",
+      "type": "string",
+      "required": false,
+      "description": "systempolitik vil blive fjernet, hvis dette parameter er tomt eller ordet 'falsk'"
+    }
+  ]
+}
