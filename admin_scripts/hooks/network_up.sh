@@ -33,6 +33,7 @@ if [ ! -f "/usr/local/bin/jobmanager.real" ]; then
     echo "This machine does not have jobmanager hook support"
     exit 1
 fi
+mkdir -p /etc/os2borgerpc/pre-checkin.d /etc/os2borgerpc/post-checkin.d
 
 HOOKS="/etc/os2borgerpc/pre-checkin.d/network_up.sh"
 
